@@ -41,11 +41,11 @@ class BaseJob (models.Model):
         ('Summoner','SMN'),
         ('Astrologian','AST'),
     )
-    basejobname = models.CharField(max_length=40,choices=jname,verbose_name='Elenco Job')
+    basejobname = models.CharField(max_length=40,choices=jname,verbose_name='Nome del Job')
 
     class Meta:
-        verbose_name ="FFXIVJob"
-        verbose_name_plural="FFXIV JOBS"
+        verbose_name ="Elenco Job"
+        verbose_name_plural="Elenco Jobs"
 
     def __str__(self):
         return self.basejobname
