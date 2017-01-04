@@ -38,8 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello',
-    'ffxivclass',
-    'ffxivjob'
+    'class_room',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -80,8 +79,12 @@ WSGI_APPLICATION = 'gettingstarted.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbniv6ui1k3l9',
+        'USER': 'dubysetaxmkage',
+        'PASSWORD': '76ae6226ae7a1725355db04f25b291041848e964fcaf706b59b67ba078f83c01',
+        'HOST': 'ec2-50-19-125-201.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
