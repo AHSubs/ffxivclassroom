@@ -22,6 +22,7 @@
       <list>
         <option value="$MODULE_DIR$/hello/templates" />
         <option value="$MODULE_DIR$/gettingstarted/templates" />
+        <option value="$MODULE_DIR$/class_room/templates" />
       </list>
     </option>
   </component>
