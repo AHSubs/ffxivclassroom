@@ -1,0 +1,18 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr> Lista Classi Primarie></tr>
+    <tr><td>Ruolo</td><td>Esp uscita</td><td>Nome</td><td>Stat Primaria</td><td>Trasformazione in</td><td>icona</td></tr>
+{% for base in baselist %}
+    <tr><td>{{ base.role }}</td><td>{{ base.avail }}</td><td>{{ base.name }}</td><td>{{ base.stat }}</td><td>{{ base.transformin }}({{ base.trasforminjobat }})</td><td>{{ base.icon }}</td></tr>
+{% endfor %}
+</table>
+
+</body>
+</html>
