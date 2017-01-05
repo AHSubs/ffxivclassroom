@@ -143,6 +143,7 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 SUIT_CONFIG = {
-    'ADMIN_NAME': 'FFXIVITA ClassRoom'
+    'ADMIN_NAME': 'FFXIVITA ClassRoom',
+    'CONFIRM_UNSAVED_CHANGES': True,
 
 }
