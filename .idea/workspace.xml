@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ac0df4-dfd2-4081-b9f5-6b6f85e88b86" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class_room/templates/admin/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_room/templates/admin/base_site.html" afterPath="$PROJECT_DIR$/class_room/templates/admin/base_site.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +35,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base_site.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="base_site.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class_room/templates/admin/base_site.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="601">
@@ -43,6 +43,19 @@
                   <folding>
                     <element signature="e#1646#1652#0#HTML" expanded="true" />
                     <element signature="e#1856#1862#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/class_room/templates/admin/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="431">
+                  <caret line="209" column="7" lean-forward="true" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#4552#4559#0#HTML" expanded="true" />
+                    <element signature="e#7233#7239#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -143,6 +156,7 @@
         <option value="$PROJECT_DIR$/gettingstarted/settings.py" />
         <option value="$PROJECT_DIR$/class_room/templates/base_site.html" />
         <option value="$PROJECT_DIR$/class_room/templates/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/class_room/templates/admin/base.html" />
       </list>
     </option>
   </component>
@@ -807,6 +821,17 @@
           <folding>
             <element signature="e#1646#1652#0#HTML" expanded="true" />
             <element signature="e#1856#1862#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_room/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="209" column="7" lean-forward="true" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+          <folding>
+            <element signature="e#4552#4559#0#HTML" expanded="true" />
+            <element signature="e#7233#7239#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
