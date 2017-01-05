@@ -21,10 +21,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/hello/templates" />
-        <option value="$MODULE_DIR$/class_room/templates" />
-        <option value="$MODULE_DIR$/templates" />
         <option value="$MODULE_DIR$/gettingstarted/templates" />
-        <option value="$MODULE_DIR$/suit/templates" />
       </list>
     </option>
   </component>
